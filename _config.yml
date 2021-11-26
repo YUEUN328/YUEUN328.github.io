@@ -110,14 +110,14 @@ author:
   avatar           : # 프로필 이미지 /assets/images/bio-photo.jpg
   bio              : "꿈을 현실화하는 개발자가 되기 위해 공부하고 있습니다."
   location         : "Republic of Korea"
-  email            :
+  email            : "yueun.kim.328@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://yueun328.github.io/"
+      # url: "https://yueun328.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
