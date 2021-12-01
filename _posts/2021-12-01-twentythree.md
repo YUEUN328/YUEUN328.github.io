@@ -151,4 +151,4 @@ public class FileMain10 {
 }
 ```
 
-FileReader와 FileWriter의 단점은 인코딩 타입을 지정할 수 없기 때문에 실행 환경에 따라서 다른 결과를 준다. 그런데  InputStreamReader, OutputStreamWriter를 사용하면 인코딩 타입을 지정할 수 있다. 따라서 FileReader/FileWriter(Java 버전11 전까진)보다 InputStreamReader/OutputStreamWriter를 권장한다. Java 버전11부터는 FileReader/FileWriter도 인코딩 타입을 지정할 수 있다.
+FileReader와 FileWriter의 단점은 인코딩 타입을 지정할 수 없기 때문에 실행 환경에 따라서 다른 결과를 준다. 그런데  InputStreamReader와 OutputStreamWriter를 사용하면 인코딩 타입을 지정할 수 있다. 따라서 FileReader/FileWriter(Java 버전11 전까진)보다 InputStreamReader/OutputStreamWriter를 권장한다. Java 버전11부터는 FileReader/FileWriter도 인코딩 타입을 지정할 수 있다.
