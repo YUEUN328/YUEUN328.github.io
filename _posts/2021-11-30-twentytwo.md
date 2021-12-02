@@ -76,7 +76,7 @@ package edu.java.file08;
 
 import java.io.Serializable;
 
-public class Student implements Serializable{
+public class Student implements Serializable {
 	// field
 	private int id;
 	private String name;
