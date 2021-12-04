@@ -112,7 +112,7 @@ public class ContactFileUtil {
 	public static void writeDataToFile(List<Contact> data, File file) {
 		try (FileOutputStream out = new FileOutputStream(file);
 				BufferedOutputStream bout = new BufferedOutputStream(out);
-				ObjectOutputStream oout = new ObjectOutputStream(bout)) {
+				ObjectOutputStream oout = new ObjectOutputStream(bout);) {
 			
 			oout.writeObject(data);
 			
