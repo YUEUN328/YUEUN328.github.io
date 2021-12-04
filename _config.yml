@@ -297,4 +297,4 @@ defaults:
       share: true
       related: true
 
-date_format: "%Y-%m-%d"      
+date_format: "%Y.%m.%d"      
