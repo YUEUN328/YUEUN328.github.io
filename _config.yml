@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "YUEUN"
-  avatar           : "/assets/cat.jpg" # 프로필 이미지 /assets/images/bio-photo.jpg
+  avatar           : "/assets/blog08.jpg" # 프로필 이미지 /assets/images/bio-photo.jpg
   bio              : "꿈을 현실화하는 개발자가 되기 위해 공부하고 있습니다."
   location         : "Republic of Korea"
   email            : "328yueun@gmail.com"
