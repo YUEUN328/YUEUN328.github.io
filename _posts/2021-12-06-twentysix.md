@@ -44,4 +44,4 @@ class MyThread extends Thread {
 class MyRunnable implements Runnable {
 ```
 
-
+ThreadMain02는 ThreadMain01과 달리 상속이 아니라 인터페이스를 구현한다. 자바는 다중상속이 안 돼서 클래스를 하나밖에 상속받지 못하니까, 이미 다른 클래스를 상속받았을 경우를 가정한 것이다.
