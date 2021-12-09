@@ -48,12 +48,12 @@ private void showIdPassword() {
 //		String result = "ID: " + id + "\n + "PW: " + pw;
 		char[] pw = passwordField.getPassword();
 		
-//		if (id.equals("")) {
-//			System.out.println("아이디 입력 안 됨");
-//		}
-//		if (pw.length == 0) {
-//			System.out.println("비밀번호 입력 안 됨");
-//		}
+		if (id.equals("")) {
+			JOptionPane.showMessageDialog(frame, "아이디 입력 안 됨.");
+		}
+		if (pw.length == 0) {
+			JOptionPane.showMessageDialog(frame, "비밀번호 입력 안 됨.");
+		}
 		
 		StringBuffer result = new StringBuffer();
 		result.append("ID: ").append(id).append("\n")
@@ -65,5 +65,32 @@ private void showIdPassword() {
 
 파라미터 char[]인 append() 메서드가 있으므로 for 문을 직접 안 만들고 바로 pw를 읽어줄 수 있다. 
 
-주석 처리된 if 문의 조건에 id.equals("")로 하는 이유는 id가 String이므로 ==가 아니라 equals()로 비교해야 한다. 잊지 말자!
+if 문의 조건에 id.equals("")로 하는 이유는 id가 String이므로 ==가 아니라 equals()로 비교해야 한다. 잊지 말자!
 
+<br>
+
+```java
+		StringBuffer buffer = new StringBuffer();
+		
+		// 라디오버튼들 중에서 선택된 상태
+		if (rbPrivate.isSelected()) {
+			buffer.append(rbPrivate.getText());
+		} else if (rbPackage.isSelected()) {
+			buffer.append(rbPackage.getText());
+		} else if (rbProtected.isSelected()) {
+			buffer.append(rbProtected.getText());
+		} else if (rbPublic.isSelected()) {
+			buffer.append(rbPublic.getText());
+		}
+		buffer.append(" 라디오버튼 선택.\n");
+		
+//		Enumeration<AbstractButton> elements = buttonGroup.getElements();
+//		for (; elements.hasMoreElements();) {
+//			AbstractButton btn = elements.nextElement();
+//			if (btn.isSelected()) {
+//				buffer.append(btn.getText()).append(" 라디오버튼 선택.\n");
+//			}
+//		}
+```
+
+주석 처리된 부분처럼 하면 if 문을 일일이 쓰지 않고 간단하게 할 수 있다. 좀 어려운 방법이긴 하다.
