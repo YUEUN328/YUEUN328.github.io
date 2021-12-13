@@ -6,7 +6,10 @@ tag: SQL
 author_profile: false
 ---
 
+## TIL
+
 - Row(행) = Observation = Records = Examples 
+
 - Column(열) = Variables = Fields = Attributes
 - 깃허브 Raw에서 마우스 오른쪽 클릭해서 '다른 이름으로 링크 저장하기'를 누르면 파일을 저장할 수 있다.
 - 1) 명령어는 대문자로, 테이블 이름과 컬럼 이름은 소문자로 쓰는 방법
