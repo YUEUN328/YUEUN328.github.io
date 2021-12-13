@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 30일차
+title: 31일차
 categories: TIL
 tag: SQL
 author_profile: false
