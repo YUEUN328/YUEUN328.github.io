@@ -26,7 +26,7 @@ author_profile: false
      select DEPTNO, DNAME from DEPT; -- 3
      ```
   
-     
+     <br>
   
 - select와 from은 두 줄로 많이 나눠쓴다.
 
