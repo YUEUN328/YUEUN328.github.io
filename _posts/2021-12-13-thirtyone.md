@@ -26,8 +26,6 @@ author_profile: false
      select DEPTNO, DNAME from DEPT; -- 3
      ```
   
-     <br>
-  
 - select와 from은 두 줄로 많이 나눠쓴다.
 
 - SQL에서 문자열은 작은따옴표('')를 사용한다. 별명만 큰따옴표("")를 쓴다. 단, 별명에 공백이 없는 경우에는 큰따옴표를 생략 가능하다.
@@ -43,8 +41,6 @@ author_profile: false
   
   where sal between 2000 and 3000
   ```
-
-  
 
 - or 대신 in ( , , ...)을 쓸 수 있는데, 단 비교 대상이 같아야 한다.
 
