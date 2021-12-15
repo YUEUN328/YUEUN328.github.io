@@ -56,6 +56,3 @@ author_profile: false
   having 그룹을 묶은 다음에 검사할 조건식
   order by 출력 순서를 설정할 컬럼, ...;
   ```
-
-  
-
