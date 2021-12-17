@@ -2,7 +2,7 @@
 layout: single
 title: 35일차
 categories: TIL
-tag: SQL, Java
+tag: [SQL, Java]
 author_profile: false
 ---
 
