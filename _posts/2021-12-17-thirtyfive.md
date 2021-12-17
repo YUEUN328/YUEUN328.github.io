@@ -24,9 +24,9 @@ author_profile: false
 
 ------
 
--  SQL 문장을 실행시킬 수 있는 Statement 객체 생성
--  완성된 SQL 문장을 사용할 때: createStatement() 메서드 사용 -> Statement 객체 생성
--  SQL 템플릿을 사용할 때: prepareStatement() 메서드 사용 -> PreparedStatement 객체
--  SQL 실행, 결과 확인
--  select 문(DQL): executeQuery() 메서드 사용 -> 리턴 타입: ResultSet
--  insert, update, delete 문(DML): executeUpdate() 메서드 사용 -> 리턴 타입: int
+* SQL 문장을 실행시킬 수 있는 Statement 객체 생성
+  * 완성된 SQL 문장을 사용할 때: createStatement() 메서드 사용 -> Statement 객체 생성
+  * SQL 템플릿을 사용할 때: prepareStatement() 메서드 사용 -> PreparedStatement 객체
+* SQL 실행, 결과 확인
+  * select 문(DQL): executeQuery() 메서드 사용 -> 리턴 타입: ResultSet
+  * insert, update, delete 문(DML): executeUpdate() 메서드 사용 -> 리턴 타입: int
