@@ -6,6 +6,8 @@ tag: [JavaScript]
 author_profile: false
 ---
 
+## TIL
+
 * 자바스크립트는 자바와 달리 배열에 []를 쓴다.
 
 * for-in 구문: 자바의 향상된 for 구문(enhanced for statement)과 비슷하다.
